@@ -28,6 +28,12 @@
 2. When I receive "Game Over"
  * Hide
  * Stop all
+3. Define sharkGlider
+ * Set yValue to random number between -180 and 180
+ * Go to x = 220 and selected yValue
+ * Show
+ * Glide to x = 240 and selected yValue in glideSpeed seconds
+ * Hide
 4. When I receive "Avoid the Shark!"
  * Switch costume
  * Point towards fish and set roatation style from left to right
@@ -36,5 +42,22 @@
  * Broadcast "SecondShark"
  * Repeat sharkGlider and decreaseGlideSpeed sequence 20 times
  * Broadcast "You Win!"
+ * Hide
+ * Stop all
+#### Shark3
+1. When green flag is clicked
+ * Hide
+2. When I receive "SecondShark"
+ * Set size to 100%
+ * Point towards fish and set rotation style from left to right
+ * Repeat sharkGlider sequence 20 times
+ * Hide
+ * Stop all
+3. When I receive "SecondShark"
+ * Always be aware that game is over if the shark is touching the fish
+4. When I receive "Game Over"
+ * Hide
+ * Stop all
+5. When I receive "You Win!"
  * Hide
  * Stop all
