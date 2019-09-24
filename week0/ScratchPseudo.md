@@ -1,13 +1,8 @@
 # Scratch Project
 
-**This is bolded** <br>
-*This is italicized* <br>
-~~strikethrough~~
-
-numbered list
-1. item one
-2. item two
-
-bulleted list
-* item one
-* item two
+##Fish
+1. When green flag is clicked
+2. Show
+3. Switch backdrop to Underwater1
+4. Go to specified location
+5. Broadcast "Avoid The Shark!"
