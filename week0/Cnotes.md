@@ -3,7 +3,7 @@
 Scratch Say(hello, world)
 
 ```C
-printf("hello, world\n");
+printf("hello, world\n"); //use double forward slash to comment code
 ```
 
 All printed words are called strings and strings are enclosed by "string" <br>
@@ -41,5 +41,14 @@ else if (x > y)
 else if (x == y)
 {
   printf("x is equal to y\n");
+}
+```
+
+Double equals sign means equal to in C while single equals sign means set to
+
+```C
+while(true) //true has the value of always being true so it can be used to create a forever loop
+{
+  printf("hello, world\n");
 }
 ```
