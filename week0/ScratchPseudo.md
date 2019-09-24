@@ -1,8 +1,12 @@
 # Scratch Project
 
-##Fish
+## Fish
 1. When green flag is clicked
-2. Show
-3. Switch backdrop to Underwater1
-4. Go to specified location
-5. Broadcast "Avoid The Shark!"
+  *Show
+ **Switch backdrop to Underwater1
+***Go to specified location
+****Broadcast "Avoid The Shark!"
+
+1. When I receive "Game Over"
+*hide
+**Switch backdrop to Water and Rocks
