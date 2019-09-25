@@ -62,3 +62,10 @@ A return value is the output of a program
   string answer = get_string("What's your name?\n");
   printf("%s", answer); //% symbol indicates a certain format. In this case it tells the printf function to print a string
 ```
+```C
+#include <stdio.h>
+int main(void) 
+{
+  printf("hello,world\n");
+}
+```
