@@ -51,4 +51,14 @@ while(true) //true has the value of always being true so it can be used to creat
 {
   printf("hello, world\n");
 }
+for(int i = 0; i < 50; i++) { //set variable, number of repetitions, and incrementation
+  printf("hello, world\n");
+}
+```
+
+A return value is the output of a program
+
+```C
+  string answer = get_string("What's your name?\n");
+  printf("%s", answer); //% symbol indicates a certain format. In this case it tells the printf function to print a string
 ```
