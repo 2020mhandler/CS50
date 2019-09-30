@@ -69,3 +69,6 @@ int main(void)
   printf("hello,world\n");
 }
 ```
+
+To run a program either clang file or ./file <br>
+To save code in a file write -o filename 
