@@ -71,4 +71,7 @@ int main(void)
 ```
 
 To run a program either clang file or ./file <br>
-To save code in a file write -o filename 
+To save code in a file write -o filename <br>
+make to make new file <br>
+mkdir to make directory <br>
+cd ~/ to change directory
