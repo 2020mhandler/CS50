@@ -69,9 +69,21 @@ int main(void)
   printf("hello,world\n");
 }
 ```
-
+## IDE Notes
 To run a program either clang file or ./file <br>
 To save code in a file write -o filename <br>
 make to make new file <br>
 mkdir to make directory <br>
-cd ~/ to change directory
+cd ~/ to change directory <br>
+get_string prompts the user for a string <br>
+rm to delete file <br>
+touch to create file <br>
+get_int prompts user for an integer <br>
+numbers with decimal points are called floats <br>
+
+```C
+  #include <cs50.h>
+  #include <stdio.h>
+  string name = "george";
+  printf("hello, %s\n", name); //write %, variable type, and later write variable name to insert variable
+```
