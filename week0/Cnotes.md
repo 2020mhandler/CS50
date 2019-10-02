@@ -87,3 +87,7 @@ numbers with decimal points are called floats <br>
   string name = "george";
   printf("hello, %s\n", name); //write %, variable type, and later write variable name to insert variable
 ```
+After a % type in .(integer)f to specify the number of decimal places <br>
+|| (double lines mean or) <br>
+&& (double and sign means and) <br>
+!= means not equal to <br>
