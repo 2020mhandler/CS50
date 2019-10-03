@@ -91,3 +91,8 @@ After a % type in .(integer)f to specify the number of decimal places <br>
 || (double lines mean or) <br>
 && (double and sign means and) <br>
 != means not equal to <br>
+```C
+  for(int i = 0; i < 3; i++) {
+    printf("cough\n");
+  }
+```
