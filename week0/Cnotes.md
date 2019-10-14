@@ -96,3 +96,11 @@ After a % type in .(integer)f to specify the number of decimal places <br>
     printf("cough\n");
   }
 ```
+Final unit project commands <br>
+help50
+
+style50
+
+check50
+
+submit50
